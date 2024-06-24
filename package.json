@@ -2,5 +2,17 @@
   "dependencies": {
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.5.2"
-  }
+  },
+  "name": "4.2-how-the-code-is-compiled",
+  "description": "## Packages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "ts-node-dev --respawn ./src/index.ts",
+    "build": "tsc", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
